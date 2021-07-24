@@ -95,3 +95,15 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+function video()
+{
+  if(document.getElementById("videoYT").src == "https://www.youtube.com/embed/5FMPfM0h2wI")
+  {
+    document.getElementById("videoYT").src = "https://www.youtube.com/embed/hO4osZmzH64";
+  }
+  else
+  {
+    document.getElementById("videoYT").src = "https://www.youtube.com/embed/5FMPfM0h2wI"
+  }
+}

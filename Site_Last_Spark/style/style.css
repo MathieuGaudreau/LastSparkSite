@@ -225,7 +225,7 @@ margin-top: 2em;
     position: absolute;
     height: 400%;
     width: 100%;
-    z-index: 0;
+    z-index: 100;
     top: 0;
 }
 
@@ -247,6 +247,10 @@ margin-top: 2em;
 #bouche4{
     transform: translate(-20em, 185em) scaleY(0.5) scaleX(-0.5) rotate(10deg);
     opacity: 0.1;
+}
+
+#bouche4:hover{
+    cursor: pointer;
 }
 
 #arrow{
